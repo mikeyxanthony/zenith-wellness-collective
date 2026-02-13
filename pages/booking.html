@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment | Zenith Wellness Collective</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo"><a href="../index.html"><h1>Zenith Wellness</h1></a></div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle"><span></span><span></span><span></span></button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="../index.html#services" class="nav-link">Services</a></li>
+                <li><a href="../index.html#about" class="nav-link">About</a></li>
+                <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+                <li><a href="booking.html" class="btn btn-primary active">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section style="margin-top: 70px; padding: 60px 20px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; text-align: center;">
+        <div class="container">
+            <h1 style="color: white; font-size: 2.5rem; margin-bottom: 15px;">Book Your Appointment</h1>
+            <p style="font-size: 1.1rem;">Schedule your wellness session with our expert practitioners</p>
+        </div>
+    </section>
+
+    <section style="padding: 80px 20px; background: white;">
+        <div class="container" style="max-width: 800px;">
+            <div class="contact-form-wrapper">
+                <form class="contact-form" id="bookingForm" data-handled="true">
+                    <h3 style="text-align: center; margin-bottom: 30px;">Schedule Your Session</h3>
+                    <div class="form-group">
+                        <label style="display: block; margin-bottom: 8px; font-weight: 600;">Full Name *</label>
+                        <input type="text" id="bookingName" placeholder="Your full name" required>
+                    </div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                        <div class="form-group">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 600;">Email *</label>
+                            <input type="email" id="bookingEmail" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 600;">Phone *</label>
+                            <input type="tel" id="bookingPhone" placeholder="(555) 123-4567" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label style="display: block; margin-bottom: 8px; font-weight: 600;">Select Service *</label>
+                        <select id="bookingService" required>
+                            <option value="">Choose a service...</option>
+                            <option value="yoga-group">Yoga Group Class - $25</option>
+                            <option value="yoga-private">Yoga Private Session - $85</option>
+                            <option value="nutrition">Nutrition Consultation - $120</option>
+                            <option value="massage-60">Massage Therapy (60 min) - $90</option>
+                            <option value="mindfulness">Mindfulness Coaching - $125</option>
+                        </select>
+                    </div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                        <div class="form-group">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 600;">Date *</label>
+                            <input type="date" id="bookingDate" required>
+                        </div>
+                        <div class="form-group">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 600;">Time *</label>
+                            <select id="bookingTime" required>
+                                <option value="">Select time...</option>
+                                <option value="08:00">8:00 AM</option>
+                                <option value="10:00">10:00 AM</option>
+                                <option value="12:00">12:00 PM</option>
+                                <option value="14:00">2:00 PM</option>
+                                <option value="16:00">4:00 PM</option>
+                                <option value="18:00">6:00 PM</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label style="display: block; margin-bottom: 8px; font-weight: 600;">Notes</label>
+                        <textarea id="bookingNotes" rows="4" placeholder="Any special requests..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Submit Booking Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Zenith Wellness Collective. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>
