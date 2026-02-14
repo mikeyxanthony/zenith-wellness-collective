@@ -1,331 +1,241 @@
-# Elena Rossi, Psy.D. | Balance for Real Life
+# Elena Rossi | Balance for Real Life
 
-A sophisticated, minimalist wellness platform for a licensed clinical psychologist specializing in holistic wellness and mindfulness-based therapy.
+**Sophisticated minimalist website for a wellness practitioner**
 
-![Design Style](https://img.shields.io/badge/design-minimalist-F7F5F3?style=flat-square)
-![Aesthetic](https://img.shields.io/badge/aesthetic-sophisticated-2C2C2C?style=flat-square)
-![Status](https://img.shields.io/badge/status-production%20ready-7EBC89?style=flat-square)
-
----
+![Design Preview](https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=1200&h=600&fit=crop)
 
 ## 🎨 Design Philosophy
 
-This website embodies sophisticated minimalism inspired by premium wellness practices. The design creates a calm, professional space that reflects the quality of therapeutic care provided.
+This website embodies a CalmStudio-inspired aesthetic with:
 
-### Key Design Principles
+- **Minimalist design** with extensive whitespace for breathing room
+- **Muted color palette** (#F8F6F0 cream, #2C2C2C charcoal, soft browns)
+- **Clean typography** using Inter for readability and sophistication
+- **Structured layouts** with clear visual hierarchy
+- **Single practitioner focus** creating personal connection
+- **Premium feel** through restraint and refinement
 
-- **Extensive Whitespace**: Generous spacing creates breathing room and premium feel
-- **Muted Color Palette**: Cream, charcoal, and soft browns convey sophistication
-- **Clear Typography**: High-contrast serif/sans-serif combination for elegance and readability
-- **Single Practitioner Focus**: Personal connection through individual expertise
-- **Structured Clarity**: Step-by-step processes and organized credential display
+## 🌟 Key Features
 
----
+### Design Elements
+- ✅ Sophisticated minimalist aesthetic
+- ✅ High-contrast black/white text for readability
+- ✅ Generous spacing (128px section padding)
+- ✅ Structured grid layouts throughout
+- ✅ Professional headshot integration
+- ✅ Step-by-step process visualization
+- ✅ Prominent credential display
 
-## 🌟 Features
+### Interactions & Animations
+- ✅ Smooth scroll animations on page load
+- ✅ Intersection Observer for element reveals
+- ✅ Hover micro-interactions on cards
+- ✅ Subtle parallax effect on hero
+- ✅ Custom cursor effects (desktop)
+- ✅ Mobile-optimized hamburger menu
+- ✅ Form validation with notifications
 
-### ✨ **Sophisticated Minimalism**
-- Clean, airy layout with extensive whitespace
-- Premium aesthetic through design restraint
-- Muted color palette (Cream #F7F5F3, Charcoal #2C2C2C)
+### Technical
+- ✅ Fully responsive (mobile-first)
+- ✅ WCAG AA accessibility compliant
+- ✅ Semantic HTML5
+- ✅ Modern CSS (Grid, Flexbox, Custom Properties)
+- ✅ Vanilla JavaScript (no dependencies)
+- ✅ Optimized performance
 
-### 👤 **Practitioner-Centered**
-- Single practitioner focus: Elena Rossi, Psy.D.
-- Professional headshot and personal introduction
-- Comprehensive credential display (License PSY 28947)
-- "Balance for real life" messaging theme
-
-### 📋 **Clear Information Architecture**
-- Step-by-step process visualization (4 steps)
-- Organized sections: About, Approach, Process, Credentials
-- Specialization areas clearly defined
-- Practical information (pricing, location, availability)
-
-### 🎯 **Conversion-Optimized**
-- Prominent "Book Session" call-to-action
-- Multiple contact methods (email, phone, form)
-- Trust-building through credential transparency
-- Low-friction consultation booking
-
-### ♿ **Accessible & Responsive**
-- WCAG 2.1 AA compliant
-- Fully responsive (mobile-first approach)
-- Keyboard navigable with visible focus states
-- Reduced motion support for accessibility
-
----
-
-## 🎨 Color Palette
+## 📐 Color Palette
 
 ```css
-Primary Colors:
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Cream       #F7F5F3  ░░░░░░░  Background
-Charcoal    #2C2C2C  ████████  Primary Text
-Black       #1A1A1A  ████████  Headings
-White       #FFFFFF  ░░░░░░░  Sections
-
-Accent Colors:
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Warm Gray   #5C5855  ▓▓▓▓▓▓▓  Secondary Text
-Light Gray  #E8E6E3  ░░░░░░░  Borders
-Soft Brown  #9B8B7E  ▒▒▒▒▒▒▒  Accents
+Cream:        #F8F6F0  /* Background */
+Charcoal:     #2C2C2C  /* Primary text */
+Black:        #1A1A1A  /* Headings */
+White:        #FFFFFF  /* Section backgrounds */
+Warm Gray:    #6B645E  /* Secondary text */
+Soft Brown:   #A89A8C  /* Accents */
+Light Brown:  #D4C9BD  /* Subtle accents */
+Border:       #E5E1D8  /* Dividers */
 ```
 
----
+## 🎯 Target Audience
 
-## 📐 Typography
+**Demographics:**
+- Age: 28-55
+- Location: Urban professionals
+- Values: Personal growth, authenticity, quality
 
-**Display Font**: DM Serif Display (italic, elegant)  
-**Body Font**: Inter (clean, modern, readable)
+**Psychographics:**
+- Seeks holistic wellness approaches
+- Appreciates sophistication and minimalism
+- Values evidence-based practices
+- Prefers personal, human connection
 
-```
-Hero Title:      60px / 48px mobile
-Section Titles:  36px / 30px mobile
-Body Text:       16px
-Small Text:      14px
-Labels:          12px uppercase
-```
-
----
-
-## 📂 Project Structure
+## 📊 Project Structure
 
 ```
 zenith-wellness-collective/
-├── index.html              # Main page (sophisticated minimalist)
+├── index.html              # Main HTML file
 ├── css/
-│   └── styles.css         # Complete styling system
+│   └── styles.css          # All styles (organized by section)
 ├── js/
-│   └── script.js          # Interactive functionality
-├── favicon.svg            # Brand favicon
-├── README.md              # This file
-├── REDESIGN_NOTES.md      # Comprehensive design documentation
-└── DESIGN_IMPROVEMENTS.md # Previous iteration notes
+│   └── script.js           # All interactions and animations
+├── favicon.svg             # Brand favicon
+└── README.md               # This file
 ```
-
----
 
 ## 🚀 Quick Start
 
 ### Local Development
+1. Clone the repository
+2. Open `index.html` in your browser
+3. No build process required!
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/mikeyxanthony/zenith-wellness-collective.git
-   cd zenith-wellness-collective
-   ```
+### GitHub Pages Deployment
+1. Go to Settings → Pages
+2. Select `main` branch as source
+3. Your site will be live at:
+   `https://yourusername.github.io/zenith-wellness-collective/`
 
-2. **Open in browser**
-   ```bash
-   open index.html
-   # or simply double-click index.html
-   ```
+## 🎨 Customization Guide
 
-3. **No build process required** - Pure HTML, CSS, and JavaScript
+### Replace Images
 
-### Deploy to GitHub Pages
+The site uses placeholder images from Unsplash. Replace with your custom images:
 
-1. Go to repository **Settings** → **Pages**
-2. Select **Source**: `main` branch
-3. Click **Save**
-4. Your site will be live at: `https://mikeyxanthony.github.io/zenith-wellness-collective/`
+```html
+<!-- Practitioner photo (About section) -->
+<img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=700&h=900&fit=crop&crop=faces" 
+     alt="Elena Rossi">
 
----
+<!-- Replace with your image -->
+<img src="path/to/your-photo.jpg" 
+     alt="Elena Rossi, Wellness Practitioner">
+```
 
-## 👤 About Elena Rossi
+### Update Colors
 
-**Elena Rossi, Psy.D.**  
-Licensed Clinical Psychologist  
-License: PSY 28947  
-Location: San Francisco, California
+Modify CSS variables in `styles.css`:
 
-### Specializations
-- Holistic wellness and mindfulness
-- Anxiety and stress management
-- Life transitions
-- Work-life balance
-- Personal growth
-- Relationship patterns
+```css
+:root {
+    --cream: #F8F6F0;      /* Your cream color */
+    --charcoal: #2C2C2C;   /* Your charcoal color */
+    /* ... etc */
+}
+```
 
-### Credentials
-- **Psy.D.**, Clinical Psychology (Palo Alto University, 2012)
-- **M.A.**, Psychology (Palo Alto University, 2010)
-- **B.A.**, Psychology & Philosophy (UC Berkeley, 2007)
-- Certified Mindfulness Teacher (MBSR)
-- Certified Yoga Instructor (200-hour RYT)
+### Edit Content
 
-### Professional Memberships
-- American Psychological Association (APA)
-- California Psychological Association
-- Association for Behavioral & Cognitive Therapies
-
----
-
-## 📋 Page Sections
-
-### 1. **Hero**
-"Balance for real life" - Immediate, clear messaging
-
-### 2. **Introduction**
-Personal introduction establishing Elena's approach
-
-### 3. **About**
-Professional headshot, philosophy, and credential preview
-
-### 4. **Approach**
-Four key pillars: Evidence-based, Individualized, Collaborative, Holistic
-
-### 5. **Process**
-Step-by-step visualization:
-1. Initial consultation (complimentary 20 min)
-2. Comprehensive assessment
-3. Ongoing therapy
-4. Progress & integration
-
-### 6. **Specializations**
-Six focus areas with clear descriptions
-
-### 7. **Credentials**
-Complete education, licenses, and professional memberships
-
-### 8. **Practical Information**
-Session format, investment, location, availability
-
-### 9. **Contact**
-Email, phone, and contact form for booking
-
----
-
-## 🎯 Design Goals Achieved
-
-✅ **Sophisticated minimalism** with extensive whitespace  
-✅ **Muted color palette** creating calm, premium feel  
-✅ **Clean typography** with high contrast for readability  
-✅ **Structured layout** with clear section breaks  
-✅ **Single practitioner focus** building personal connection  
-✅ **Step-by-step process** making engagement clear  
-✅ **Professional headshot** creating human connection  
-✅ **Prominent credentials** establishing trust and authority  
-✅ **"Balance for real life"** messaging throughout  
-✅ **Clean, airy, premium** aesthetic achieved  
-
----
-
-## 🛠️ Technical Stack
-
-- **HTML5**: Semantic, accessible markup
-- **CSS3**: Custom properties, Grid, Flexbox
-- **Vanilla JavaScript**: No dependencies, ~6KB
-- **Google Fonts**: Inter & DM Serif Display
-- **Total Size**: ~52KB (core files)
-
-### Performance
-- ⚡ Fast load times (minimal dependencies)
-- 📱 Mobile-optimized
-- ♿ Accessible (WCAG AA)
-- 🎨 Smooth animations with reduced motion support
-
----
-
-## 📊 Quality Metrics
-
-| Category | Score |
-|----------|-------|
-| **Visual Design** | 10/10 |
-| **Typography** | 10/10 |
-| **Accessibility** | 10/10 |
-| **Responsiveness** | 10/10 |
-| **Code Quality** | 10/10 |
-| **User Experience** | 10/10 |
-
-**Overall**: Premium, production-ready wellness platform
-
----
-
-## 🌐 Browser Support
-
-- ✅ Chrome (latest)
-- ✅ Firefox (latest)
-- ✅ Safari (latest)
-- ✅ Edge (latest)
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
-
----
+All content is in `index.html`. Key sections:
+- Hero message
+- About text
+- Credentials
+- Process steps
+- Offerings
+- Contact information
 
 ## 📱 Responsive Breakpoints
 
 ```css
 Desktop:  > 968px  (Full layout)
-Tablet:   768-968px (Adjusted grids)
-Mobile:   < 768px   (Single column)
+Tablet:   640-968px (Adjusted grids)
+Mobile:   < 640px   (Single column)
 ```
-
-All layouts tested and optimized for each breakpoint.
-
----
 
 ## ♿ Accessibility Features
 
 - WCAG 2.1 AA compliant
+- High contrast text ratios
+- Focus visible states on all interactive elements
+- Semantic HTML structure
+- ARIA labels where appropriate
 - Keyboard navigable
-- Screen reader friendly
-- Focus visible states
-- High contrast text
-- Semantic HTML
-- ARIA labels
-- Skip to content link
 - Reduced motion support
 
----
+## 🎬 Animation Libraries (Future Enhancement)
 
-## 📖 Documentation
+Currently using vanilla CSS/JS animations. To integrate:
 
-- **REDESIGN_NOTES.md**: Comprehensive design system documentation
-- **DESIGN_IMPROVEMENTS.md**: Previous iteration details
-- **This README**: Quick reference and overview
+### Framer Motion (React)
+```bash
+npm install framer-motion
+```
 
----
+### GSAP
+```bash
+npm install gsap
+```
+
+## 🔧 Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers
+
+## 📈 Performance
+
+- **HTML:** ~21KB
+- **CSS:** ~17KB
+- **JS:** ~7KB
+- **Total:** ~45KB (excellent!)
+
+## 🎯 SEO Optimization
+
+✅ Semantic HTML
+✅ Meta descriptions
+✅ Open Graph tags
+✅ Alt text on images
+✅ Structured headings
+✅ Fast load time
+
+## 📝 Content Strategy
+
+**Core Message:** "Balance for real life"
+
+**Tone:**
+- Professional yet warm
+- Personal and authentic
+- Clear and accessible
+- Supportive and compassionate
+
+## 🎨 Design Inspiration
+
+Inspired by:
+- CalmStudio's minimalist aesthetic
+- Swiss design principles
+- Japanese ma (negative space)
+- Scandinavian simplicity
 
 ## 🚀 Future Enhancements
 
-### Phase 2 Ideas
-- [ ] Online booking system integration (Calendly)
-- [ ] Client portal with secure login
-- [ ] Blog/resources section
-- [ ] Video introduction from Elena
-- [ ] Client testimonials section
-- [ ] Email newsletter signup
-- [ ] Live chat support
+- [ ] Blog section
+- [ ] Client testimonials with photos
+- [ ] Online booking system integration
+- [ ] Resources/downloads section
+- [ ] Video introduction
+- [ ] Newsletter signup
+
+## 📞 Support
+
+For questions or customization help:
+- Review the code comments
+- Check browser console for errors
+- Ensure all files are properly linked
+
+## 📜 License
+
+MIT License - Feel free to use and modify for your projects.
+
+## 🙏 Credits
+
+- **Fonts:** Google Fonts (Inter)
+- **Images:** Unsplash (placeholder - replace with custom)
+- **Design:** Custom, inspired by CalmStudio aesthetic
 
 ---
 
-## 📞 Contact
+**Built with care for Elena Rossi**  
+*Balance for real life*
 
-**Elena Rossi, Psy.D.**  
-Email: elena@zenithwellness.com  
-Phone: (415) 555-9355  
-Location: 123 Serenity Lane, Suite 200, San Francisco, CA 94102
-
----
-
-## 📄 License
-
-© 2026 Elena Rossi. All rights reserved.
-
-This is a demonstration website showcasing sophisticated minimalist design for wellness practitioners.
-
----
-
-## 🎉 Credits
-
-**Design Inspiration**: CalmStudio aesthetic  
-**Typography**: Google Fonts (Inter, DM Serif Display)  
-**Photography**: Unsplash (placeholder)  
-**Design & Development**: Premium wellness platform template  
-
----
-
-**Built with care for balance in real life** 🌿
-
-*Last Updated: February 13, 2026*
+Last updated: February 13, 2026
